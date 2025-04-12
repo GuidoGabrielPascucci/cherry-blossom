@@ -1,0 +1,23 @@
+#galeria {
+    background-color: var(--color-bg-dark);
+}
+
+.galeria-img {
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.galeria-img img {
+    height: 50vh;
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.galeria-img:hover img {
+    transform: scale(1.05);
+}

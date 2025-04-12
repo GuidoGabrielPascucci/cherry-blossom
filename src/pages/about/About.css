@@ -1,0 +1,26 @@
+.sobrenos-hero {
+    background: url("https://images.unsplash.com/photo-1602810316816-e0399d2f93e4")
+        center/cover no-repeat;
+    height: 50vh;
+    position: relative;
+}
+
+.sobrenos-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.sobrenos-hero > .container {
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    color: #c2185b;
+}
+
+p {
+    font-size: 1.1rem;
+}

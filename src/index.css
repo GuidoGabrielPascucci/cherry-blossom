@@ -1,4 +1,13 @@
+:root {
+    --color-primary: #a4130f;
+    --color-secondary: #d14466;
+    --color-bg: #fadadd;
+    --color-text: #c0392b;
+    --color-accent: #fff8f6;
+    --color-bg-dark: #050505;
+}
+
 img {
-    height: 100vh;
+    height: 70vh;
     object-fit: contain;
 }

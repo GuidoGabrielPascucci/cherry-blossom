@@ -1,0 +1,18 @@
+.cta-redes {
+    /* background: linear-gradient(135deg, #111 0%, #333 100%); */
+    background-color: var(--color-bg-dark);
+}
+
+.redes-cta-title {
+    color: var(--color-secondary);
+}
+
+.cta-icon {
+    color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.cta-icon:hover {
+    color: #bbb;
+    transform: scale(1.1);
+}

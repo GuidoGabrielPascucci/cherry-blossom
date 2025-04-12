@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--color-bg-dark);
+}
+
+.footer-title {
+    color: var(--color-bg);
+    color: var(--color-secondary);
+}
+
+.footer-p {
+    color: white;
+}
+
+.footer-subtitle {
+    color: var(--color-secondary);
+}
+
+.footer a.footer-link {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.footer a.footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer a.footer-icon {
+    color: white;
+    transition: color 0.2s ease;
+}
+
+.footer a.footer-icon:hover {
+    color: #bbb;
+}
+
+.footer-copyright {
+    color: var(--color-accent);
+}
