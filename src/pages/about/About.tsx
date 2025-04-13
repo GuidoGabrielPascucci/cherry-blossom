@@ -1,36 +1,16 @@
-// import Header from "../components/header/Header";
-// import Footer from "../components/footer/Footer";
-
-// function About() {
-//     return (
-//         <>
-//             <Header />
-//             <main className="py-5 text-center container">
-//                 <h1 className="mb-4">Sobre Nosotros</h1>
-//                 <p className="lead">
-//                     Somos una tienda apasionada por la moda urbana. Desde 2023
-//                     trabajamos para ofrecer prendas con estilo, comodidad y
-//                     personalidad.
-//                 </p>
-//             </main>
-//             <Footer />
-//         </>
-//     );
-// }
-
-// export default About;
-
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
+import rocasImg from "@assets/rocas.avif";
+import cherryImg from "@assets/logos/cherry-logo.png";
 
 function About() {
     return (
         <>
             <Header />
 
-            <section className="sobrenos-hero text-white d-flex align-items-center">
+            <section className="sobrenos-hero text-white d-flex align-items-center border border-danger">
                 <Container className="text-center">
                     <h1 className="display-4 fw-bold">Sobre Nosotros</h1>
                     <p className="lead">
@@ -54,7 +34,7 @@ function About() {
                         </Col>
                         <Col md={6}>
                             <img
-                                src="https://images.unsplash.com/photo-1520975916090-3105956da2cf"
+                                src={rocasImg}
                                 alt="Nuestro equipo"
                                 className="img-fluid rounded-3 shadow"
                             />
@@ -64,7 +44,7 @@ function About() {
                     <Row className="mb-5">
                         <Col md={6}>
                             <img
-                                src="https://images.unsplash.com/photo-1600185365483-26c3f01598f5"
+                                src={cherryImg}
                                 alt="Tienda Cherry Blossom"
                                 className="img-fluid rounded-3 shadow"
                             />

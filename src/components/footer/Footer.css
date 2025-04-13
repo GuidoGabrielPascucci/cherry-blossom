@@ -7,22 +7,22 @@
     color: var(--color-secondary);
 }
 
-.footer-p {
+.footer-subtitle {
     color: white;
 }
 
-.footer-subtitle {
+.footer-nav-title {
     color: var(--color-secondary);
 }
 
-.footer a.footer-link {
-    color: var(--color-accent);
+.footer-link {
+    color: grey !important;
     text-decoration: none;
 }
 
-.footer a.footer-link:hover {
-    color: #ffffff;
-    text-decoration: underline;
+.footer-link:hover {
+    /* color: #ffffff; */
+    background-color: white;
 }
 
 .footer a.footer-icon {
@@ -31,7 +31,7 @@
 }
 
 .footer a.footer-icon:hover {
-    color: #bbb;
+    color: yellow;
 }
 
 .footer-copyright {
