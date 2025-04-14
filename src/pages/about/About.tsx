@@ -1,9 +1,8 @@
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import { Header, Footer } from "@components";
 import { Container, Row, Col } from "react-bootstrap";
-import "./About.css";
 import rocasImg from "@assets/rocas.avif";
 import cherryImg from "@assets/logos/cherry-logo.png";
+import "./About.css";
 
 function About() {
     return (

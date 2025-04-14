@@ -1,8 +1,8 @@
-import "./Footer.css";
-import "../../index.css";
-import { Container, Row, Col, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { FaInstagram, FaWhatsapp, FaTiktok } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Nav } from "@components";
+import "../../index.css";
+import "./Footer.css";
 
 function Footer() {
     return (
@@ -15,27 +15,9 @@ function Footer() {
                             Moda urbana con identidad propia.
                         </p>
                     </Col>
-                    <Col md={4} className="mb-5 mb-md-0">
+                    <Col md={4} className="mb-5 mb-md-0 d-flex flex-column align-items-center">
                         <h6 className="footer-nav-title">Enlaces</h6>
-
-                        <Nav>
-                            <Nav.Link as={Link} to="/" className="">
-                                Inicio
-                            </Nav.Link>
-                            <Nav.Link as={Link} to="/catalogo" className="">
-                                Catalogo
-                            </Nav.Link>
-                            <Nav.Link
-                                as={Link}
-                                to="/sobre-nosotros"
-                                className="nav-item-custom"
-                            >
-                                Sobre Nosotros
-                            </Nav.Link>
-                            <Nav.Link as={Link} to="/contacto" className="">
-                                Contacto
-                            </Nav.Link>
-                        </Nav>
+                        <Nav />
                     </Col>
                     <Col md={4} className="mb-5 mb-md-0">
                         <h6 className="footer-subtitle">Seguinos</h6>

@@ -1,5 +1,4 @@
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import { Header, Footer } from "@components";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const productos = [

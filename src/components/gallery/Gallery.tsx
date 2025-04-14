@@ -1,4 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
+import oneImg from "@assets/one.avif"
+import twoImg from "@assets/two.avif"
+import threeImg from "@assets/three.avif"
+import fourImg from "@assets/four.avif"
+import fiveImg from "@assets/five.avif"
+import sixImg from "@assets/six.avif"
 import "./Gallery.css";
 
 function Gallery() {
@@ -9,32 +15,32 @@ function Gallery() {
                 <Row className="g-3">
                     <Col xs={6} md={4}>
                         <div className="galeria-img">
-                            <img src="../../../one.avif" alt="Look 1" />
+                            <img src={oneImg} alt="Look 1" />
                         </div>
                     </Col>
                     <Col xs={6} md={4}>
                         <div className="galeria-img">
-                            <img src="../../../two.avif" alt="Look 2" />
+                            <img src={twoImg} alt="Look 2" />
                         </div>
                     </Col>
                     <Col xs={6} md={4}>
                         <div className="galeria-img">
-                            <img src="../../../three.avif" alt="Look 3" />
+                            <img src={threeImg} alt="Look 3" />
                         </div>
                     </Col>
                     <Col xs={6} md={4}>
                         <div className="galeria-img">
-                            <img src="../../../four.avif" alt="Look 4" />
+                            <img src={fourImg} alt="Look 4" />
                         </div>
                     </Col>
                     <Col xs={6} md={4}>
                         <div className="galeria-img">
-                            <img src="../../../five.avif" alt="Look 5" />
+                            <img src={fiveImg} alt="Look 5" />
                         </div>
                     </Col>
                     <Col xs={6} md={4}>
                         <div className="galeria-img">
-                            <img src="../../../six.avif" alt="Look 6" />
+                            <img src={sixImg} alt="Look 6" />
                         </div>
                     </Col>
                 </Row>

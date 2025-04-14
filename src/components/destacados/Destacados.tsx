@@ -1,17 +1,21 @@
-import "./Destacados.css";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import bradhyImg from "@assets/bradhy.avif";
+import zaraImg from "@assets/zara.avif";
+import assetImg from "@assets/img-asset.jpg";
+import "./Destacados.css";
+import { motion } from "framer-motion";
 
 function Destacados() {
     return (
         <section className="py-5 bg-light" id="destacados">
             <Container>
-                <h2 className="text-center mb-5">Destacados de la temporada</h2>
+                <motion.h2 animate={{x: 30}} className="text-center mb-5">Destacados de la temporada</motion.h2>
                 <Row className="g-4">
                     <Col xs={12} md={4}>
                         <Card className="h-100">
                             <Card.Img
                                 variant="top"
-                                src="../../../public/bradhy.avif"
+                                src={bradhyImg}
                                 className="card-img"
                             />
                             <Card.Body>
@@ -30,7 +34,7 @@ function Destacados() {
                         <Card className="h-100">
                             <Card.Img
                                 variant="top"
-                                src="../../../public/zara.avif"
+                                src={zaraImg}
                                 className="card-img"
                             />
                             <Card.Body>
@@ -49,7 +53,7 @@ function Destacados() {
                         <Card className="h-100">
                             <Card.Img
                                 variant="top"
-                                src="../../../public/img-asset.jpg"
+                                src={assetImg}
                                 className="card-img"
                             />
                             <Card.Body>

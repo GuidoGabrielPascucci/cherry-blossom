@@ -10,8 +10,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/catalogo" element={<Catalog />} />
-            <Route path="/contactanos" element={<Contact />} />
-            <Route path="sobre-nosotros" element={<About />} />
+            <Route path="/sobre-nosotros" element={<About />} />
+            <Route path="/contacto" element={<Contact />} />
         </Routes>
     );
 }

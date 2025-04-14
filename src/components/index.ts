@@ -1,0 +1,11 @@
+export { default as Carrousel } from './carrousel/Carrousel';
+export { default as Catalog } from './catalog/Catalog';
+export { default as Destacados } from './destacados/Destacados';
+export { default as Footer } from './footer/Footer';
+export { default as Gallery } from './gallery/Gallery';
+export { default as Header } from './header/Header';
+export { default as Hero } from './hero/Hero';
+export { default as Propuesta } from './propuesta/Propuesta';
+export { default as RedesCTA } from './redes-cta/RedesCTA';
+export { default as Section } from './section/Section';
+export { default as Nav } from './nav/Nav';
