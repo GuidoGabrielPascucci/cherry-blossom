@@ -1,11 +1,8 @@
-import { Header, Footer } from "@components";
 import "./Contact.css";
 
 function Contact() {
     return (
         <>
-            <Header />
-
             <div className="container py-5">
                 <h2 className="text-center mb-4">Contacto</h2>
                 <p className="text-center text-muted mb-5">
@@ -85,8 +82,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-
-            <Footer />
         </>
     );
 }

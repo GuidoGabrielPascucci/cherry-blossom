@@ -1,0 +1,5 @@
+export { default as About } from "./about/About"
+export { default as Catalog } from "./catalog/Catalog"
+export { default as NuevoCatalogo } from "./catalog/NuevoCatalogo"
+export { default as Contact } from "./contact/Contact"
+export { default as Home } from "./home/Home"

@@ -1,15 +1,13 @@
-import { Header, Hero, Destacados, RedesCTA, Gallery, Propuesta, Footer } from "@components";
+import { Hero, Destacados, RedesCTA, Gallery, Propuesta } from "@components";
 
 function Home() {
     return (
         <>
-            <Header />
             <Hero />
             <Destacados />
             <RedesCTA />
             <Gallery />
             <Propuesta />
-            <Footer />
         </>
     );
 }

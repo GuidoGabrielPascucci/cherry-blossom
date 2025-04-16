@@ -1,4 +1,3 @@
-import { Header, Footer } from "@components";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const productos = [
@@ -31,8 +30,6 @@ const productos = [
 function Catalog() {
     return (
         <>
-            <Header />
-
             <section className="py-5">
                 <Container>
                     <h1 className="text-center mb-4">Catálogo</h1>
@@ -74,8 +71,6 @@ function Catalog() {
                     </Row>
                 </Container>
             </section>
-
-            <Footer />
         </>
     );
 }
