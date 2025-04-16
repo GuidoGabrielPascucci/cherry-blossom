@@ -1,5 +1,5 @@
-import morenaImg from "@assets/morena.png"
-import blondaImg from "@assets/rubia2.png"
+import morenaImg from "@assets/home/morena.png"
+import blondaImg from "@assets/home/rubia2.png"
 
 import { Carousel } from "react-bootstrap";
 import "./Hero.css";

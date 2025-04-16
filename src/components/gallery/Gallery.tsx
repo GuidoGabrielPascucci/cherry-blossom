@@ -1,19 +1,28 @@
 import { Container, Row, Col } from "react-bootstrap";
-import oneImg from "@assets/one.avif"
-import twoImg from "@assets/two.avif"
-import threeImg from "@assets/three.avif"
-import fourImg from "@assets/four.avif"
-import fiveImg from "@assets/five.avif"
-import sixImg from "@assets/six.avif"
+
+// import oneImg from "@assets/one.avif"
+// import twoImg from "@assets/two.avif"
+// import threeImg from "@assets/three.avif"
+// import fourImg from "@assets/four.avif"
+// import fiveImg from "@assets/five.avif"
+// import sixImg from "@assets/six.avif"
+
 import "./Gallery.css";
 
+const images = import.meta.glob('/src/assets/home/*', { eager: true, as: 'url' });
+
 function Gallery() {
+
+    console.log(Object.entries(images));
+
     return (
         <section className="" id="galeria">
             <Container>
                 {/* <h2 className="text-center mb-4">Looks que amamos 💖</h2> */}
                 <Row className="g-3">
-                    <Col xs={6} md={4}>
+
+                    
+                    {/* <Col xs={6} md={4}>
                         <div className="galeria-img">
                             <img src={oneImg} alt="Look 1" />
                         </div>
@@ -42,7 +51,7 @@ function Gallery() {
                         <div className="galeria-img">
                             <img src={sixImg} alt="Look 6" />
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </section>

@@ -1,29 +1,30 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+// import {  } from "@assets/catalogo";
 
 const productos = [
     {
         id: 1,
         nombre: "Remera Oversize",
         precio: "$5.200",
-        imagen: "https://images.unsplash.com/photo-1618354691210-cb1c25c88a09",
+        imagen: "",
     },
     {
         id: 2,
         nombre: "Buzo Cherry Blossom",
         precio: "$8.700",
-        imagen: "https://images.unsplash.com/photo-1542062703-3f9f5f1d61eb",
+        imagen: "",
     },
     {
         id: 3,
         nombre: "Pantalón Cargo",
         precio: "$9.300",
-        imagen: "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642",
+        imagen: "",
     },
     {
         id: 4,
         nombre: "Campera de Jean",
         precio: "$11.000",
-        imagen: "https://images.unsplash.com/photo-1616767356745-3d5f7a7c2c5c",
+        imagen: "",
     },
 ];
 

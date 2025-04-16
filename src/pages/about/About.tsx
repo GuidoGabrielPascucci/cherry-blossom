@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import rocasImg from "@assets/rocas.avif";
+import rocasImg from "@assets/home/rocas.avif";
 import cherryImg from "@assets/logos/cherry-logo.png";
 import "./About.css";
 

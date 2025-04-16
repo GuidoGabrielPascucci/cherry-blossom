@@ -1,7 +1,9 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import bradhyImg from "@assets/bradhy.avif";
-import zaraImg from "@assets/zara.avif";
-import assetImg from "@assets/img-asset.jpg";
+
+import bradhyImg from "@assets/home/bradhy.avif";
+import zaraImg from "@assets/home/zara.avif";
+import assetImg from "@assets/home/img-asset.jpg";
+
 import "./Destacados.css";
 import { motion } from "framer-motion";
 
